@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter-regular';
+  src: url('./environment/fonts/Inter-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter-medium';
+  src: url('./environment/fonts/Inter-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter-semibold';
+  src: url('./environment/fonts/Inter-SemiBold.ttf');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SpaceGrotesk-regular';
+  src: url('./environment/fonts/SpaceGrotesk-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SpaceGrotesk-medium';
+  src: url('./environment/fonts/SpaceGrotesk-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter-regular';
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active-tab {
+  background-color: #f9f9fb;
+}

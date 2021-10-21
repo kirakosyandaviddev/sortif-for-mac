@@ -1,0 +1,20 @@
+#  Template python-build
+
+#  This template allows you to validate your python code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: python:3.9
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Sortif Project
+          caches:
+            - pip
+          script:
+            - pip install pytest
+            - pip install Django
+            - pip install djangorestframework
+            - pip install djangorestframework-jwt
+
